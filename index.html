@@ -2,17 +2,68 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Willkommen im Bonn.Café</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bonn.Café</title>
+  <meta name="author" content="Dr. Olav Schettler">
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
+  <meta property="og:image" content="kirschbluete.jpg">
   <style>
+html {
+      background: url(kirschbluete.jpg) no-repeat center top fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
     body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
+      margin: 0;
+      font-family: Hack, sans-serif;
+    }
+    main {
+      font-size: 2em;
+      width: 50%;
+      text-align: center;
+      margin: 200px auto 0 auto;
+      color: white;
+      text-shadow: 3px 3px 4px #777;
+    }
+    a {
+      color: white;
+      text-shadow: 3px 3px 4px #777;
+    }
+
+    section {
+      background-color: rgba(55,159,170,0.5);
+      margin: 200px 0 0 auto;
+      width: 80%;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 0.6em;
+      line-height: 1.2em;
+      text-shadow: none;
+    }
+
+    footer {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      padding: 4px 10px;
+      width: 100%;
+      background-color: rgba(0,0,0,0.6);
+      color: #CCC;
+      /*text-shadow: 3px 3px 4px #777;*/
+      text-align: right;
     }
   </style>
 </head>
 <body>
-<h1>Willkommen im Bonn.Café</h1>
-<p>Das Bonn.Café ist Teil des <a href="https://tildeverse.org">Tildeverse</a<.</p>
+  <main>
+    <h1>Willkommen im Bonn.Café</h1>
+    <p>Das Bonn.Café ist Teil des <a href="https://tildeverse.org">Tildeverse</a>.</p>
+  </main>
+  <footer>
+    <p>Betrieben von Dr. Olav Schettler, Pipinstr. 14, D-53111 Bonn<br/>
+    <a href="mailto:olav@bonn.cafe">E-Mail an mich</a> für freien Account</p>
+  </footer>
 </body>
 </html>
